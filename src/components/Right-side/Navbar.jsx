@@ -1,24 +1,37 @@
-import './navbar.css'
-import { navTexts } from '../../constants'
-import { useState } from 'react'
+import React, { useState } from 'react';
+import { navTexts } from '../../constants';
+import './navbar.css';
 
 export default function Navbar() {
+    const [classStates, setClassStates] = useState(
+        navTexts.map(() => 'nav-link')
+    );
 
+    const handleMouseEnter = (id) => {
+        const updatedStates = [...classStates];
+        updatedStates[id] = 'nav-link nav-link-selected';
+        setClassStates(updatedStates);
+    };
+
+    const handleMouseLeave = (id) => {
+        const updatedStates = [...classStates];
+        updatedStates[id] = 'nav-link';
+        setClassStates(updatedStates);
+    };
 
     return (
         <nav>
             {navTexts.map((text, id) => (
-                <div
-                    className='nav-item'
-                    key={id}
-                >
-                    <a href={'#' + text}
-                        className="nav-link"
-                    >
-                    </a>
+                <div className='nav-item' key={id} data-for-section={text}>
+                    <a
+                        href={'#' + text}
+                        className={classStates[id]}
+                        onMouseEnter={() => handleMouseEnter(id)}
+                        onMouseLeave={() => handleMouseLeave(id)}
+                    ></a>
                     <span className='nav-label'>{text}</span>
                 </div>
             ))}
         </nav>
-    )
+    );
 }
