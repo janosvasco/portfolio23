@@ -21,9 +21,13 @@ nav {
     width: var(--nav-gap);
     margin-left: var(--nav-gap);
     transition: transform 0.1s;
+    cursor: pointer;
 }
 
 .nav-link:hover ~ .nav-label {
+    opacity: 1;
+}
+.nav-link-selected:hover ~ .nav-label {
     opacity: 1;
 }
 
