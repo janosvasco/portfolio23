@@ -6,7 +6,7 @@ export default function Navbar() {
   const [classStates, setClassStates] = useState(navTexts.map(() => 'nav-link'));
 
   const handleMouseEnter = (id) => {
-    if (!('ontouchstart' in window)) { 
+    if (!('ontouchstart' in window)) {
       const updatedStates = [...classStates];
       updatedStates[id] = 'nav-link nav-link-selected';
       setClassStates(updatedStates);
@@ -21,7 +21,8 @@ export default function Navbar() {
     }
   };
 
-  const handleTouchStart = (id) => {
+  const handleTouchStart = (event, id) => {
+    event.preventDefault(); 
     const updatedStates = [...classStates];
     updatedStates[id] = 'nav-link nav-link-selected';
     setClassStates(updatedStates);
@@ -42,7 +43,7 @@ export default function Navbar() {
             className={classStates[id]}
             onMouseEnter={() => handleMouseEnter(id)}
             onMouseLeave={() => handleMouseLeave(id)}
-            onTouchStart={() => handleTouchStart(id)}
+            onTouchStart={(event) => handleTouchStart(event, id)}
             onTouchEnd={() => handleTouchEnd(id)}
           ></a>
           <span className='nav-label'>{text}</span>
