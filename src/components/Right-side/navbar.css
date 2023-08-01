@@ -28,9 +28,9 @@ nav {
 }
 
 .nav-link-selected {
-    background-color: #0000;
+    background: #000000;
     transform: scale(1.4);
-}
+  }
 
 .nav-label {
     font-weight: bold;
