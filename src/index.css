@@ -1,7 +1,21 @@
-html {
-  scroll-behavior: smooth;
+* {
+  box-sizing:border-box
 }
 
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: black;
+  --boxcolor: #eafaf3;
+  --boxcolorlight: #fafbfb;
+  --fontcolor: grey;
+  
+
+  --navfont: Verdana, Geneva, Tahoma, sans-serif;
+  --fw-normal: 300;
+  --fw-bold: 700;
+  --fsize-s: 12px;
+
+}
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
