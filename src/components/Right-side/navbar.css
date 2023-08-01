@@ -1,5 +1,6 @@
 nav {
     --nav-gap: 15px;
+    margin-right: var(--nav-gap);
     padding: var(--nav-gap);
     position: fixed;
     right: 0;
@@ -15,28 +16,40 @@ nav {
 }
 
 .nav-link {
-    background-color: rgba(0, 0, 0, 0.3);
+    /*     background-color: rgba(0, 0, 0, 0.3);
+ */
+    background-color: transparent;
+    border: 4px solid red;
     border-radius: 50%;
-    height: var(--nav-gap);
-    width: var(--nav-gap);
+    height: 30px;
+    width: 30px;
     margin-left: var(--nav-gap);
     transition: transform 0.1s;
     cursor: pointer;
 }
 
-.nav-link:hover ~ .nav-label {
+.nav-link:hover {
+    border: 4px solid black;
+}
+
+.nav-link:hover~.nav-label {
     opacity: 1;
 }
-.nav-link-selected:hover ~ .nav-label {
+
+.nav-link-selected:hover~.nav-label {
     opacity: 1;
 }
 
 .nav-link-selected {
     background: #000000;
-    transform: scale(1.4);
-  }
+/*     transform: scale(1.4);
+ */    border: 3px solid black
+
+}
 
 .nav-label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
     font-weight: bold;
     color: black;
     opacity: 0;
