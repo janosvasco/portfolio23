@@ -2,19 +2,33 @@
     height: 100vh;
 }
 
+.section p {
+    margin: 0;
+    font-size: 86px;
+}
+
 #CV {
     background-color: beige;
 }
+
 #PORTRÉ {
     background-color: rgb(125, 125, 86);
 }
+
 #MOTIVÁCIÓ {
     background-color: beige;
 }
+
 #JÁTÉKOK {
     background-color: rgb(12, 12, 11);
 }
 
-#WEBOLDALAK {
+#JÁTÉKOK p {
+    color: white;
+}
+
+#PROJEKTEK {
     background-color: azure;
 }
+
+
