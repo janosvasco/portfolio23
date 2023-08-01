@@ -1,51 +1,22 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Link } from 'react-scroll';
 import { navTexts } from '../../constants';
 import './navbar.css';
 
 export default function Navbar() {
-  const [classStates, setClassStates] = useState(navTexts.map(() => 'nav-link'));
-
-  const handleMouseEnter = (id) => {
-    if (!('ontouchstart' in window)) {
-      const updatedStates = [...classStates];
-      updatedStates[id] = 'nav-link nav-link-selected';
-      setClassStates(updatedStates);
-    }
-  };
-
-  const handleMouseLeave = (id) => {
-    if (!('ontouchstart' in window)) {
-      const updatedStates = [...classStates];
-      updatedStates[id] = 'nav-link';
-      setClassStates(updatedStates);
-    }
-  };
-
-  const handleTouchStart = (event, id) => {
-    event.preventDefault(); 
-    const updatedStates = [...classStates];
-    updatedStates[id] = 'nav-link nav-link-selected';
-    setClassStates(updatedStates);
-  };
-
-  const handleTouchEnd = (id) => {
-    const updatedStates = [...classStates];
-    updatedStates[id] = 'nav-link';
-    setClassStates(updatedStates);
-  };
-
   return (
     <nav>
       {navTexts.map((text, id) => (
         <div className='nav-item' key={id} data-for-section={text}>
-          <a
-            href={'#' + text}
-            className={classStates[id]}
-            onMouseEnter={() => handleMouseEnter(id)}
-            onMouseLeave={() => handleMouseLeave(id)}
-            onTouchStart={(event) => handleTouchStart(event, id)}
-            onTouchEnd={() => handleTouchEnd(id)}
-          ></a>
+          <Link
+            to={text}
+            spy={true}
+            smooth={true}
+            offset={0} // Adjust this offset value to consider the height of your sticky navbar
+            duration={50} // Adjust the scrolling duration as needed
+            activeClass="nav-link-selected"
+            className="nav-link"
+          ></Link>
           <span className='nav-label'>{text}</span>
         </div>
       ))}
