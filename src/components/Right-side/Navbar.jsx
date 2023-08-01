@@ -13,7 +13,7 @@ export default function Navbar() {
             spy={true}
             smooth={true}
             offset={0} // Adjust this offset value to consider the height of your sticky navbar
-            duration={50} // Adjust the scrolling duration as needed
+            duration={300} // Adjust the scrolling duration as needed
             activeClass="nav-link-selected"
             className="nav-link"
           ></Link>
