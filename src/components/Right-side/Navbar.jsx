@@ -6,15 +6,19 @@ export default function Navbar() {
   const [classStates, setClassStates] = useState(navTexts.map(() => 'nav-link'));
 
   const handleMouseEnter = (id) => {
-    const updatedStates = [...classStates];
-    updatedStates[id] = 'nav-link nav-link-selected';
-    setClassStates(updatedStates);
+    if (!('ontouchstart' in window)) { 
+      const updatedStates = [...classStates];
+      updatedStates[id] = 'nav-link nav-link-selected';
+      setClassStates(updatedStates);
+    }
   };
 
   const handleMouseLeave = (id) => {
-    const updatedStates = [...classStates];
-    updatedStates[id] = 'nav-link';
-    setClassStates(updatedStates);
+    if (!('ontouchstart' in window)) {
+      const updatedStates = [...classStates];
+      updatedStates[id] = 'nav-link';
+      setClassStates(updatedStates);
+    }
   };
 
   const handleTouchStart = (id) => {
