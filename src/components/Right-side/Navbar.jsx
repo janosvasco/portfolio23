@@ -1,9 +1,9 @@
-import React from 'react';
-import { Link } from 'react-scroll';
-import { navTexts } from '../../constants';
-import './navbar.css';
+import React from 'react'
+import { Link } from 'react-scroll'
+import { navTexts } from '../../constants'
+import './navbar.css'
 
-export default function Navbar() {
+export default function Navbar () {
   return (
     <nav>
       {navTexts.map((text, id) => (
@@ -21,5 +21,5 @@ export default function Navbar() {
         </div>
       ))}
     </nav>
-  );
+  )
 }
