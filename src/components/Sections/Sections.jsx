@@ -21,11 +21,19 @@ export default function Sections() {
         <div id="pofile-cv-container">
           <div id="profile-pic-container">
             <img
-              src="src/components/Sections/section-imgs/DSC06318.JPG"
+              src="src/components/Sections/section-imgs/circleb.JPG"
               alt="Image"
             />
           </div>
-          <div id="cv-container">
+
+          <div id="cv-left">
+            <h3>Nyelvek</h3>
+            <p>magyar</p>
+            <p>angol</p>
+            <p>spanyol</p>
+            <p>indonéz</p>
+          </div>
+          <div id="cv-right">
             <h3>Tanulmányok</h3>
             <p>Progmatic Academy - 2022/23</p>
             <p>Full Stack Fejlesztés</p>
