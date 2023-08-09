@@ -1,10 +1,12 @@
-import './header.css'
-import React from 'react'
+import "./header.css";
+import React from "react";
 
-export default function Header () {
+export default function Header() {
   return (
-        <header>
-            <span>Janos Vasco Portfolio</span>
-        </header>
-  )
+    <header>
+      <div id="header-box">
+        <span>Sándor János Vasco portfólió</span>
+      </div>
+    </header>
+  );
 }
