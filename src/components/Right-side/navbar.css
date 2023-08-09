@@ -43,6 +43,15 @@ nav {
     border: 3px solid black
 }
 
+.nav-link-selected-white {
+    background-color: white;
+    border-color: rgb(255, 255, 255);
+}
+
+.nav-link-selected-white:hover {
+    border-color: rgb(255, 255, 255);  
+}
+
 .nav-label {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
@@ -51,4 +60,8 @@ nav {
     opacity: 0;
     transition: opacity 0.1s;
 
+}
+
+.nav-label-white {
+    color: white;
 }
