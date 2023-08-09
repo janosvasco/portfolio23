@@ -8,8 +8,8 @@ export default function Layout () {
   return (
         <>
             <Header />
-            <Sections />
             <Navbar />
+            <Sections />
         </>
   )
 }
