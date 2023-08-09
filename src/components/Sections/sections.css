@@ -1,75 +1,72 @@
 .section {
-    height: 100vh;
-    display: flex;
+  height: 100vh;
+  display: flex;
 }
 .section img {
-    height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 2px;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 2px;
 }
 
 .section p {
-    margin: 0;
-    font-size: 86px;
+  margin: 0;
+  font-size: 86px;
 }
 
 #pofile-cv-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 #cv-container {
-    width: 350px;
-    border: 1px solid black;
+  width: 350px;
+  border: 1px solid black;
 }
 
-#cv-container p{
-    font-size: 14px;
+#cv-container p {
+  font-size: 14px;
 }
 
 #CV {
-    background-color: beige;
+  background-color: beige;
 }
 
 #PORTRÉ {
-    background-color: rgb(125, 125, 86);
+  background-color: rgb(125, 125, 86);
 }
 
 #MOTIVÁCIÓ {
-    background-color: beige;
-    flex-direction: column;
-    align-items: center;
+  background-color: beige;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-#MOTIVÁCIÓ p{
-font-size: 36px;
+#MOTIVÁCIÓ p {
+  font-size: 36px;
 }
 
 .text-box {
-    border: 1px solid black;
-    width: 75%;
-    height: 75%;
+  width: 75%;
 }
 
-
 #JÁTÉKOK {
-    background-color: rgb(12, 12, 11);
+  background-color: rgb(12, 12, 11);
 }
 
 #JÁTÉKOK p {
-    color: white;
+  color: white;
 }
 
 #PROJEKTEK {
-    background-color: azure;
+  background-color: azure;
 }
 
 @media (max-width: 576px) {
-    .section {
-        grid-template-columns: 1fr;
-    }
-
+  .section {
+    grid-template-columns: 1fr;
+  }
 }
