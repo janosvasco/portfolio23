@@ -16,7 +16,9 @@ export default function Sections() {
   );
 
   function renderSectionContent(text) {
-    if (text === "PORTRÉ") {
+    if (text === "PIC") {
+      return <div id="pic-box"></div>;
+    } else if (text === "CV") {
       return (
         <div id="pofile-cv-container">
           <div id="profile-pic-container">
@@ -27,6 +29,17 @@ export default function Sections() {
           </div>
 
           <div id="cv-left">
+            <h3>Képességek</h3>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JS</p>
+            <p>git</p>
+            <p>React JS</p>
+            <p>Node.js</p>
+            <p>SQL</p>
+            <h3>Egyéb ismeretek</h3>
+            <p>MS Word, Excel, Pp</p>
+            <p>Adobe Ai, Ps, Pr, Lr</p>
             <h3>Nyelvek</h3>
             <p>magyar</p>
             <p>angol</p>
@@ -76,8 +89,6 @@ export default function Sections() {
           </div>
         </>
       );
-    } else {
-      return <p>{text}</p>;
     }
   }
 }
