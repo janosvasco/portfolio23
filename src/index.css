@@ -1,5 +1,5 @@
 * {
-  box-sizing:border-box
+  box-sizing: border-box;
 }
 
 :root {
@@ -8,17 +8,17 @@
   --boxcolor: #eafaf3;
   --boxcolorlight: #fafbfb;
   --fontcolor: grey;
-  
 
+  --mainFont: "Open Sans", sans-serif;
   --navfont: Verdana, Geneva, Tahoma, sans-serif;
   --fw-normal: 300;
   --fw-bold: 700;
   --fsize-s: 12px;
-
 }
 
 body {
   margin: 0;
+  max-width: 1920px;
   min-width: 320px;
   min-height: 100vh;
 }
