@@ -29,7 +29,7 @@ export default function Sections() {
           </div>
 
           <div id="cv-left">
-            <h3>Képességek</h3>
+            {/* <h3>Képességek</h3>
             <p>HTML</p>
             <p>CSS</p>
             <p>JS</p>
@@ -44,10 +44,10 @@ export default function Sections() {
             <p>magyar</p>
             <p>angol</p>
             <p>spanyol</p>
-            <p>indonéz</p>
+            <p>indonéz</p> */}
           </div>
           <div id="cv-right">
-            <h3>Tanulmányok</h3>
+            <h2>Tanulmányok</h2>
             <p>Progmatic Academy - 2022/23</p>
             <p>Full Stack Fejlesztés</p>
             <p>Csapatokban szerzett munkatapasztalat két projektben</p>
@@ -66,14 +66,14 @@ export default function Sections() {
           </div>
         </div>
       );
-    } else if (text === "JÁTÉKOK") {
+    } else if (text === "GAMES") {
       return (
         <img
           src="src/components/Sections/section-imgs/tetris.JPG"
           alt="Image"
         />
       );
-    } else if (text === "MOTIVÁCIÓ") {
+    } else if (text === "MOTIVATION") {
       return (
         <>
           <div className="text-box">
