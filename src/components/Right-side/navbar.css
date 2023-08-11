@@ -69,7 +69,11 @@ nav {
   color: white;
 }
 
-/* Add this rule to revert the text color to black when hovering is not active */
+.nav-hover-white-active .nav-link {
+  border-color: white;
+  opacity: 90%;
+}
+
 .nav-hover-white-inactive .nav-label {
   color: black;
 }
