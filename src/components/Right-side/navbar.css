@@ -1,67 +1,75 @@
 nav {
-    --nav-gap: 15px;
-    margin-right: var(--nav-gap);
-    padding: var(--nav-gap);
-    position: fixed;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+  --nav-gap: 15px;
+  margin-right: var(--nav-gap);
+  padding: var(--nav-gap);
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .nav-item {
-    align-items: center;
-    display: flex;
-    margin-bottom: var(--nav-gap);
-    flex-direction: row-reverse;
+  align-items: center;
+  display: flex;
+  margin-bottom: var(--nav-gap);
+  flex-direction: row-reverse;
 }
 
 .nav-link {
-    background-color: transparent;
-    border: 4px solid red;
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    margin-left: var(--nav-gap);
-    transition: transform 0.1s;
-    cursor: pointer;
+  background-color: transparent;
+  border: 4px solid red;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-left: var(--nav-gap);
+  transition: transform 0.1s;
+  cursor: pointer;
 }
 
 .nav-link:hover {
-    border: 4px solid black;
+  border: 4px solid black;
 }
 
-.nav-link:hover~.nav-label {
-    opacity: 1;
+.nav-link:hover ~ .nav-label {
+  opacity: 1;
 }
 
-.nav-link-selected:hover~.nav-label {
-    opacity: 1;
+.nav-link-selected:hover ~ .nav-label {
+  opacity: 1;
 }
 
 .nav-link-selected {
-    background: #000000;
-    border: 3px solid black
+  background: #000000;
+  border: 3px solid black;
 }
 
 .nav-link-selected-white {
-    background-color: white;
-    border-color: rgb(255, 255, 255);
+  background-color: white;
+  border-color: rgb(255, 255, 255);
 }
 
 .nav-link-selected-white:hover {
-    border-color: rgb(255, 255, 255);  
+  border-color: rgb(255, 255, 255);
 }
 
 .nav-label {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    color: black;
-    opacity: 0;
-    transition: opacity 0.1s;
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  opacity: 0;
+  transition: opacity 0.1s;
 }
 
 .nav-label-white {
-    color: white;
+  color: white;
+}
+
+.nav-hover-white-active .nav-label {
+  color: white;
+}
+
+/* Add this rule to revert the text color to black when hovering is not active */
+.nav-hover-white-inactive .nav-label {
+  color: black;
 }
