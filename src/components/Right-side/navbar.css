@@ -71,7 +71,11 @@ nav {
 
 .nav-hover-white-active .nav-link {
   border-color: white;
-  opacity: 90%;
+  opacity: 70%;
+}
+.nav-hover-white-active .nav-link:hover {
+  border-color: white;
+  opacity: 100%;
 }
 
 .nav-hover-white-inactive .nav-label {
