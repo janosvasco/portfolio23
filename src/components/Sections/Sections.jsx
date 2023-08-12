@@ -1,6 +1,7 @@
 import "./sections.css";
 import React from "react";
 import { navTexts } from "../../constants";
+import Header from "../Header/Header";
 
 export default function Sections() {
   return (
@@ -17,7 +18,7 @@ export default function Sections() {
 
   function renderSectionContent(text) {
     if (text === "PIC") {
-      return <div id="pic-box"></div>;
+      return <Header />;
     } else if (text === "CV") {
       return (
         <div id="pofile-cv-container">
