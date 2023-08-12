@@ -8,11 +8,13 @@ header {
 header span {
   color: white;
   font-size: 38px;
-  text-align: center;
   font-family: var(--mainFont);
   opacity: 100%;
 }
 
 #header-box {
+  height: 100%;
+  display: flex;
+  align-items: center;
   padding: 2em;
 }
