@@ -29,8 +29,8 @@ export default function Sections() {
             />
           </div>
 
-          <div id="cv-left">
-            {/* <h3>Képességek</h3>
+          {/* <div id="cv-left"> */}
+          {/* <h3>Képességek</h3>
             <p>HTML</p>
             <p>CSS</p>
             <p>JS</p>
@@ -46,7 +46,7 @@ export default function Sections() {
             <p>angol</p>
             <p>spanyol</p>
             <p>indonéz</p> */}
-          </div>
+          {/* </div> */}
           <div id="cv-right">
             <h2>Tanulmányok</h2>
             <p>Progmatic Academy - 2022/23</p>
