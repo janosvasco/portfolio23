@@ -1,1 +1,1 @@
-export const navTexts = ["PIC", "CV", "MOTIVATION", "GAMES", "PROJECTS"];
+export const navTexts = ["PIC", "CV", "MOTIVATION", "PROJECTS", "GAMES"];

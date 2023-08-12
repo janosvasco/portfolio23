@@ -38,7 +38,7 @@ export default function Navbar() {
   return (
     <nav
       className={`nav-hover-white-${
-        activeLinkIndex === 1 || activeLinkIndex === 3 ? "active" : "inactive"
+        activeLinkIndex === 1 || activeLinkIndex === 4 ? "active" : "inactive"
       }`}
     >
       {navTexts.map((text, id) => (
@@ -54,7 +54,7 @@ export default function Navbar() {
             offset={0}
             duration={300}
             activeClass={`nav-link-selected${
-              id === 3 || id === 1 ? "-white" : ""
+              id === 4 || id === 1 ? "-white" : ""
             }`}
             className="nav-link"
             onClick={() => {
@@ -63,7 +63,7 @@ export default function Navbar() {
           ></Link>
           <span
             className={`nav-label ${
-              (id === 1 || id === 3) && id === activeLinkIndex
+              (id === 1 || id === 4) && id === activeLinkIndex
                 ? "nav-label-white"
                 : ""
             }`}
