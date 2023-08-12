@@ -69,13 +69,13 @@
   justify-content: center;
 }
 #MOTIVATION p {
-  font-size: 36px;
+  font-size: 28px;
   font-family: var(--mainFont);
-  /*   background-color: rgb(223, 228, 233);
- */
+  background-color: rgb(223, 228, 233);
   padding: 1em 3em;
-  border-left: 0.1em solid red;
-  border-bottom: 0.1em solid red;
+  border: 0.1em dotted red;
+  line-height: 1.5em;
+  letter-spacing: 0.09em;
 }
 
 .text-box {
