@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       <div id="header-box">
-        <span>Sándor János Vasco portfólió</span>
+        <span>SÁNDOR JÁNOS VASCO - PORTFÓLIÓ</span>
       </div>
     </header>
   );
