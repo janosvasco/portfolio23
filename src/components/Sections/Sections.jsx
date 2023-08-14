@@ -23,7 +23,7 @@ export default function Sections() {
       return (
         <div id="pofile-cv-container">
           <div id="profile-pic-container">
-            <img src="../../../public/imgs/circleb_reduced.jpg" alt="Image" />
+            <img src="/imgs/circleb_reduced.jpg" alt="Image" />
           </div>
 
           {/* <div id="cv-left"> */}
@@ -65,7 +65,7 @@ export default function Sections() {
         </div>
       );
     } else if (text === "GAMES") {
-      return <img src="../../../public/imgs/tetris.jpg" alt="Image" />;
+      return <img src="/imgs/tetris.jpg" alt="Image" />;
     } else if (text === "MOTIVATION") {
       return (
         <>
