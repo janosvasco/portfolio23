@@ -17,7 +17,7 @@ export default function Sections() {
   );
 
   function renderSectionContent(text) {
-    if (text === "PIC") {
+    if (text === "FEJLÉC") {
       return <Header />;
     } else if (text === "CV") {
       return (
@@ -71,9 +71,9 @@ export default function Sections() {
           </div>
         </div>
       );
-    } else if (text === "GAMES") {
+    } else if (text === "JÁTÉKOK") {
       return <img src="/imgs/tetris.jpg" alt="Image" />;
-    } else if (text === "MOTIVATION") {
+    } else if (text === "MOTIVÁCIÓ") {
       return (
         <>
           <div className="text-box">

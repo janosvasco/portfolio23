@@ -15,7 +15,7 @@
   margin: 0;
 }
 
-#PIC {
+#FEJLÉC {
   background-image: url("/imgs/26020024.jpg");
   background-size: cover;
 }
@@ -73,13 +73,13 @@
   color: rgb(195, 188, 188);
 }
 
-#MOTIVATION {
+#MOTIVÁCIÓ {
   background-color: rgb(255, 255, 255);
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-#MOTIVATION p {
+#MOTIVÁCIÓ p {
   font-size: 28px;
   font-family: var(--mainFont);
   background-color: rgb(223, 228, 233);
@@ -93,14 +93,14 @@
   width: 75%;
 }
 
-#GAMES {
+#JÁTÉKOK {
   background-color: rgb(12, 12, 11);
 }
 
-#GAMES p {
+#JÁTÉKOK p {
   color: white;
 }
 
-#PROJECTS {
-  background-color: azure;
+#PROJEKTEK {
+  background-color: rgb(38, 124, 124);
 }
