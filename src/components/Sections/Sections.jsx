@@ -23,7 +23,10 @@ export default function Sections() {
       return (
         <div id="pofile-cv-container">
           <div id="profile-pic-container">
-            <img src="./section-imgs/circleb_reduced.jpg" alt="Image" />
+            <img
+              src="src/components/Sections/section-imgs/circleb_reduced.jpg"
+              alt="Image"
+            />
           </div>
 
           {/* <div id="cv-left"> */}
