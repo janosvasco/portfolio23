@@ -22,8 +22,10 @@ export default function Sections() {
     } else if (text === "CV") {
       return (
         <div id="cv-container">
+          <h2 id="cv-title">Önéletrajz</h2>
           <div id="upper">
             <img src="/imgs/circleb_reduced.jpg" alt="Image" />
+            <div id="line"></div>
             <div id="studies-box" className="cv-detail-box">
               <h2>Tanulmányok</h2>
               <p>Progmatic Academy - 2022/23</p>

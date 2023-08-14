@@ -13,7 +13,6 @@
 
 .section p {
   margin: 0;
-  font-size: 86px;
 }
 
 #PIC {
@@ -32,6 +31,18 @@
   justify-content: center;
   gap: 10em;
   align-items: center;
+}
+#cv-title {
+  font-size: 44px;
+  font-family: var(--mainFont);
+  color: rgb(195, 188, 188);
+  font-weight: 400;
+  margin: 0;
+}
+#line {
+  width: 0.1em;
+  height: 29em;
+  background-color: rgb(195, 188, 188);
 }
 #upper {
   width: 100%;
