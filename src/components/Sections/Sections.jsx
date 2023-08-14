@@ -21,46 +21,51 @@ export default function Sections() {
       return <Header />;
     } else if (text === "CV") {
       return (
-        <div id="pofile-cv-container">
-          <div id="profile-pic-container">
+        <div id="cv-container">
+          <div id="upper">
             <img src="/imgs/circleb_reduced.jpg" alt="Image" />
+            <div id="studies-box" className="cv-detail-box">
+              <h2>Tanulmányok</h2>
+              <p>Progmatic Academy - 2022/23</p>
+              <p>Full Stack Fejlesztés</p>
+              <p>Csapatokban szerzett munkatapasztalat két projektben</p>
+              <br></br>
+              <p>ISI Yogyakarta - 2018/19</p>
+              <p>Batik & Handicraft</p>
+              <p>Egyetemi dizájn kurzus indonéz nyelven</p>
+              <br></br>
+              <p>Magyar Képzőművészeti Egyetem - 2012-18</p>
+              <p>Képzőművész MA</p>
+              <p>Osztatlan mesterképzés a Festő Tanszéken</p>
+              <br></br>
+              <p>Chelsea Collage of Arts, London - 2015/16</p>
+              <p>Képzőművész BA</p>
+              <p>Projektalapú művészeti gyakorlat csoportokban</p>
+            </div>
           </div>
-
-          {/* <div id="cv-left"> */}
-          {/* <h3>Képességek</h3>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JS</p>
-            <p>git</p>
-            <p>React JS</p>
-            <p>Node.js</p>
-            <p>SQL</p>
-            <h3>Egyéb ismeretek</h3>
-            <p>MS Word, Excel, Pp</p>
-            <p>Adobe Ai, Ps, Pr, Lr</p>
-            <h3>Nyelvek</h3>
-            <p>magyar</p>
-            <p>angol</p>
-            <p>spanyol</p>
-            <p>indonéz</p> */}
-          {/* </div> */}
-          <div id="cv-right">
-            <h2>Tanulmányok</h2>
-            <p>Progmatic Academy - 2022/23</p>
-            <p>Full Stack Fejlesztés</p>
-            <p>Csapatokban szerzett munkatapasztalat két projektben</p>
-            <br></br>
-            <p>ISI Yogyakarta - 2018/19</p>
-            <p>Batik & Handicraft</p>
-            <p>Egyetemi dizájn kurzus indonéz nyelven</p>
-            <br></br>
-            <p>Magyar Képzőművészeti Egyetem - 2012-18</p>
-            <p>Képzőművész MA</p>
-            <p>Osztatlan mesterképzés a Festő Tanszéken</p>
-            <br></br>
-            <p>Chelsea Collage of Arts, London - 2015/16</p>
-            <p>Képzőművész BA</p>
-            <p>Projektalapú művészeti gyakorlat csoportokban</p>
+          <div id="lower">
+            <div id="programming-skills-box" className="cv-detail-box">
+              <h2>Képességek</h2>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JS</p>
+              <p>git</p>
+              <p>React JS</p>
+              <p>Node.js</p>
+              <p>SQL</p>
+            </div>
+            <div id="other-skills-box" className="cv-detail-box">
+              <h2>Egyéb ismeretek</h2>
+              <p>MS Word, Excel, Pp</p>
+              <p>Adobe Ai, Ps, Pr, Lr</p>
+            </div>
+            <div id="languages-box" className="cv-detail-box">
+              <h2>Nyelvek</h2>
+              <p>magyar</p>
+              <p>angol</p>
+              <p>spanyol</p>
+              <p>indonéz</p>
+            </div>
           </div>
         </div>
       );
