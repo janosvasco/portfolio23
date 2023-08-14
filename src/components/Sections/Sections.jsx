@@ -24,7 +24,7 @@ export default function Sections() {
         <div id="pofile-cv-container">
           <div id="profile-pic-container">
             <img
-              src="src/components/Sections/section-imgs/circleb_reduced.JPG"
+              src="/src/components/Sections/section-imgs/circleb_reduced.JPG"
               alt="Image"
             />
           </div>
