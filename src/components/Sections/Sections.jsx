@@ -92,6 +92,12 @@ export default function Sections() {
       return (
         <>
           <h2 id="projects-title">Projektek</h2>
+          <div className="project-container">
+            <p>frontend project</p>
+          </div>
+          <div className="project-container">
+            <p>fullstack project</p>
+          </div>
         </>
       );
     } else if (text === "JÁTÉKOK") {
