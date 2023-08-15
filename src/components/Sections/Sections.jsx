@@ -2,6 +2,7 @@ import "./sections.css";
 import React from "react";
 import { navTexts } from "../../constants";
 import Header from "../Header/Header";
+import { NavLink } from "react-router-dom";
 
 export default function Sections() {
   return (
@@ -58,7 +59,7 @@ export default function Sections() {
             </div>
             <div id="other-skills-box" className="cv-detail-box">
               <h2>Egyéb ismeretek</h2>
-              <p>MS Word, Excel, Pp</p>
+              <p>MS Word, Excel, PowerPoint</p>
               <p>Adobe Ai, Ps, Pr, Lr</p>
             </div>
             <div id="languages-box" className="cv-detail-box">
@@ -72,7 +73,17 @@ export default function Sections() {
         </div>
       );
     } else if (text === "JÁTÉKOK") {
-      return <img src="/imgs/tetris.jpg" alt="Image" />;
+      return (
+        <div id="games-container">
+          <div className="games-box" id="tetris-box">
+            <h2>Tetrisz</h2>
+            <div id="tetris-bg"></div>
+          </div>
+          <div className="games-box" id="rps-box">
+            <h2>Kő-papír-olló</h2>
+          </div>
+        </div>
+      );
     } else if (text === "MOTIVÁCIÓ") {
       return (
         <>

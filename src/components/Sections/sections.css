@@ -96,9 +96,27 @@
 #JÁTÉKOK {
   background-color: rgb(12, 12, 11);
 }
-
-#JÁTÉKOK p {
+#games-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.games-box {
+  width: 20em;
+  height: 20em;
+  border: 1px solid rgb(195, 188, 188);
+  text-align: center;
+}
+.games-box h2 {
   color: white;
+}
+#tetris-bg {
+  width: 10em;
+  height: 10em;
+  background-image: url("/imgs/tetris.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #PROJEKTEK {
