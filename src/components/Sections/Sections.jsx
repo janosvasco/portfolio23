@@ -75,10 +75,12 @@ export default function Sections() {
     } else if (text === "JÁTÉKOK") {
       return (
         <div id="games-container">
-          <div className="games-box" id="tetris-box">
-            <h2>Tetrisz</h2>
-            <div id="tetris-bg"></div>
-          </div>
+          <NavLink to="/tetris">
+            <div className="games-box" id="tetris-box">
+              <h2>Tetrisz</h2>
+              <div id="tetris-bg"></div>
+            </div>
+          </NavLink>
           <div className="games-box" id="rps-box">
             <h2>Kő-papír-olló</h2>
           </div>

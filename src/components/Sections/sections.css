@@ -111,6 +111,9 @@
 .games-box h2 {
   color: white;
 }
+#tetris-box {
+  cursor: pointer;
+}
 #tetris-bg {
   width: 10em;
   height: 10em;
