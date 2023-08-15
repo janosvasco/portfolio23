@@ -16,6 +16,7 @@
 }
 
 #FEJLÉC {
+  height: 125vh;
   background-image: url("/imgs/45120026.jpg");
   background-size: cover;
 }
@@ -93,35 +94,69 @@
   width: 75%;
 }
 
-#JÁTÉKOK {
-  background-color: rgb(12, 12, 11);
+#PROJEKTEK {
+  background-color: rgb(195, 188, 188);
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
 }
+#projects-title {
+  font-size: 44px;
+  font-family: var(--mainFont);
+  color: black;
+  font-weight: 400;
+}
+
+#JÁTÉKOK {
+  background-color: rgb(59, 52, 52);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10em;
+}
+#games-title {
+  font-size: 44px;
+  font-family: var(--mainFont);
+  color: rgb(195, 188, 188);
+  font-weight: 400;
+}
+
 #games-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
 }
+#games-container a {
+  text-decoration: none;
+}
+.game-type {
+  color: rgb(195, 188, 188);
+  text-align: center;
+  font-size: 24px;
+}
 .games-box {
   width: 20em;
   height: 20em;
   border: 1px solid rgb(195, 188, 188);
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.games-box h2 {
-  color: white;
+.games-box p {
+  margin-top: 0.5em;
+  color: rgb(195, 188, 188);
+  font-style: italic;
 }
+
 #tetris-box {
   cursor: pointer;
 }
-#tetris-bg {
+/* #tetris-bg {
   width: 10em;
   height: 10em;
   background-image: url("/imgs/tetris.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-#PROJEKTEK {
-  background-color: rgb(38, 124, 124);
-}
+} */
