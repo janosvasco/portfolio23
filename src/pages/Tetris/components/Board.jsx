@@ -1,3 +1,4 @@
+import "./Board.css";
 import BoardCell from "./BoardCell";
 
 export default function Board({ board }) {

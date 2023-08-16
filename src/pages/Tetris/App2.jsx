@@ -1,4 +1,4 @@
-import "./tetris.css";
+import "./App2.css";
 import Game from "./components/Game";
 
 export default function Tetris() {
