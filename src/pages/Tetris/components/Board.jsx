@@ -10,7 +10,7 @@ export default function Board({ board }) {
     <div className="Board" style={boardStyles}>
       {board.rows.map((row, y) => {
         return row.map((cell, x) => {
-          return <BoardCell key={(x * board.size.columns) / x} cell={cell} />;
+          return <BoardCell key={x * board.size.columns + x} cell={cell} />;
         });
       })}
     </div>

@@ -26,24 +26,24 @@
   opacity: 0;
 }
 
-.tetronimo__i {
+.tetromino__i {
   background-color: rgba(80, 227, 230, 1);
 }
-.tetronimo__j {
+.tetromino__j {
   background-color: rgba(36, 95, 223, 1);
 }
-.tetronimo__l {
+.tetromino__l {
   background-color: rgba(223, 173, 36, 1);
 }
-.tetronimo__o {
+.tetromino__o {
   background-color: rgba(223, 217, 36, 1);
 }
-.tetronimo__s {
+.tetromino__s {
   background-color: rgba(48, 211, 56, 1);
 }
-.tetronimo__t {
+.tetromino__t {
   background-color: rgba(132, 61, 198, 1);
 }
-.tetronimo__z {
+.tetromino__z {
   background-color: rgba(240, 80, 195, 1);
 }
