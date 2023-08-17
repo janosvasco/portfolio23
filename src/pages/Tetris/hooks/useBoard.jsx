@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { buildBoard } from "../business/Board";
+import { useState, useEffect } from "react";
+import { buildBoard, nextBoard } from "../business/Board";
 
 export function useBoard({
   rows,
@@ -8,6 +8,18 @@ export function useBoard({
   resetPlayer,
   addLinesCleared,
 }) {
-  const [board] = useState(buildBoard({ rows, columns }));
+  const [board, setBoard] = useState(buildBoard({ rows, columns }));
+
+  useEffect(() => {
+    setBoard((previousBoard) =>
+      nextBoard({
+        board: previousBoard,
+        player,
+        resetPlayer,
+        addLinesCleared,
+      })
+    );
+  }, [player, resetPlayer, addLinesCleared]);
+
   return [board];
 }
