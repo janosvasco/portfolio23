@@ -4,14 +4,14 @@
   position: relative;
 }
 
-.tetronimo {
+.tetromino {
   border-top: 3px solid rgba(255, 255, 255, 0.1);
   border-left: 3px solid rgba(255, 255, 255, 0.1);
   border-bottom: 3px solid rgba(0, 0, 0, 0.1);
   border-right: 3px solid rgba(0, 0, 0, 0.1);
 }
 
-.tetronimo .Sparkle {
+.tetromino .Sparkle {
   position: absolute;
   z-index: 10;
   width: 6px;
@@ -22,7 +22,12 @@
   border-radius: 4px 4px;
 }
 
-.tetronimo.ghost .Sparkle {
+.tetromino.ghost {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.tetromino.ghost .Sparkle {
   opacity: 0;
 }
 
