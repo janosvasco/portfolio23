@@ -1,5 +1,7 @@
 .Menu {
   display: flex;
+  flex-direction: column;
+  gap: 3em;
   justify-content: center;
   align-items: center;
   min-height: 50vh;
