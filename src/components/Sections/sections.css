@@ -80,6 +80,7 @@
   align-items: center;
   justify-content: center;
 }
+
 #MOTIVÁCIÓ p {
   font-size: 28px;
   font-family: var(--mainFont);
@@ -88,6 +89,7 @@
   border: 0.1em dotted red;
   line-height: 1.5em;
   letter-spacing: 0.09em;
+  border-radius: var(--borderRad);
 }
 
 .text-box {
@@ -112,6 +114,7 @@
   border: 1px solid black;
   height: 25em;
   width: 50em;
+  border-radius: var(--borderRad);
 }
 
 #JÁTÉKOK {
@@ -150,6 +153,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: var(--borderRad);
 }
 .games-box p {
   margin-top: 0.5em;
@@ -160,10 +164,3 @@
 #tetris-box {
   cursor: pointer;
 }
-/* #tetris-bg {
-  width: 10em;
-  height: 10em;
-  background-image: url("/imgs/tetris.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
