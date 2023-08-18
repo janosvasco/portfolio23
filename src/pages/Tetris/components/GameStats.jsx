@@ -7,11 +7,11 @@ const GameStats = ({ gameStats }) => {
 
   return (
     <ul className="GameStats GameStats__right">
-      <li>Level</li>
+      <li>Szint</li>
       <li className="value">{level}</li>
-      <li>Lines to level</li>
+      <li>Hátralévő sorok</li>
       <li className="value">{linesToLevel}</li>
-      <li>Points</li>
+      <li>Pontok</li>
       <li className="value">{points}</li>
     </ul>
   );

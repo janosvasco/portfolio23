@@ -4,7 +4,7 @@ export default function Menu({ onClick }) {
   return (
     <div className="Menu">
       <button className="Button" onClick={onClick}>
-        Play Tetris
+        Új Játék
       </button>
     </div>
   );
