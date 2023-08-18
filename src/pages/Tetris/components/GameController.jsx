@@ -13,6 +13,10 @@ const GameController = ({
   setGameOver,
   setPlayer,
 }) => {
+  useInterval(() => {
+    handleInput({ action: Action.SlowDrop });
+  }, 1000);
+
   const onKeyUp = ({ code }) => {
     const action = actionForKey(code);
 
