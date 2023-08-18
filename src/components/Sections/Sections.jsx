@@ -29,6 +29,7 @@ export default function Sections() {
             <div id="line"></div>
             <div id="studies-box" className="cv-detail-box">
               <h2>Tanulmányok</h2>
+              <br></br>
               <p>Progmatic Academy - 2022/23</p>
               <p>Full Stack Fejlesztés</p>
               <p>Csapatokban szerzett munkatapasztalat két projektben</p>
