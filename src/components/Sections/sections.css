@@ -25,6 +25,7 @@
   background-color: rgb(0, 0, 0);
   height: 200vh;
 }
+
 #cv-container {
   width: 100%;
   display: flex;
@@ -33,18 +34,21 @@
   gap: 10em;
   align-items: center;
 }
+
 #cv-title {
   font-size: 44px;
   font-family: var(--mainFont);
-  color: rgb(195, 188, 188);
+  color: var(--lightGrey);
   font-weight: 400;
   margin: 0;
 }
+
 #line {
   width: 0.1em;
   height: 29em;
-  background-color: rgb(195, 188, 188);
+  background-color: var(--darkGrey);
 }
+
 #upper {
   width: 100%;
   display: flex;
@@ -52,22 +56,26 @@
   justify-content: space-evenly;
   align-items: center;
 }
+
 #lower {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 #CV img {
   height: 350px;
   width: 350px;
   margin: 2em;
 }
+
 .cv-detail-box p {
   font-size: 16px;
   font-family: var(--mainFont);
-  color: rgb(195, 188, 188);
+  color: var(--lightGrey);
 }
+
 .cv-detail-box h2 {
   border-bottom: 1px solid rgb(195, 188, 188);
   font-family: var(--mainFont);
@@ -118,16 +126,17 @@
 }
 
 #JÁTÉKOK {
-  background-color: rgb(59, 52, 52);
+  background-color: var(--darkGrey);
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10em;
 }
+
 #games-title {
   font-size: 44px;
   font-family: var(--mainFont);
-  color: rgb(195, 188, 188);
+  color: var(--lightGrey);
   font-weight: 400;
 }
 
@@ -137,27 +146,31 @@
   align-items: center;
   width: 100%;
 }
+
 #games-container a {
   text-decoration: none;
 }
+
 .game-type {
-  color: rgb(195, 188, 188);
+  color: var(--lightGrey);
   text-align: center;
   font-size: 24px;
 }
+
 .games-box {
   width: 20em;
   height: 20em;
-  border: 1px solid rgb(195, 188, 188);
+  border: 1px solid var(--lightGrey);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: var(--borderRad);
 }
+
 .games-box p {
   margin-top: 0.5em;
-  color: rgb(195, 188, 188);
+  color: var(--lightGrey);
   font-style: italic;
 }
 

@@ -4,6 +4,7 @@
 
 :root {
   --darkGrey: rgb(59, 52, 52);
+  --lightGrey: rgb(195, 188, 188);
   --boxcolor: #eafaf3;
   --boxcolorlight: #fafbfb;
   --fontcolor: grey;
