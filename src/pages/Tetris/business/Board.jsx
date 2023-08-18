@@ -26,6 +26,11 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
     shape: tetromino.shape,
   });
 
+  // resert the player if collided
+  if (player.collided || player.isFastDropping) {
+    resetPlayer();
+  }
+
   return {
     rows,
     size: { ...board.size },
