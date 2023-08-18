@@ -4,6 +4,8 @@ import React from "react";
 import { Action, actionForKey } from "../business/Input";
 import { PlayerController } from "../business/PlayerController";
 
+import { useInterval } from "../hooks/useInterval";
+
 const GameController = ({
   board,
   gameStats,
