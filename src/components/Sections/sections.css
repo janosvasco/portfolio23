@@ -83,7 +83,7 @@
 }
 
 #MOTIVÁCIÓ {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(228, 215, 215);
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -92,9 +92,9 @@
 #MOTIVÁCIÓ p {
   font-size: 28px;
   font-family: var(--mainFont);
-  background-color: rgb(223, 228, 233);
+  background-color: rgb(250, 241, 241);
   padding: 1em 3em;
-  border: 0.1em dotted red;
+  border: 0.1em dotted rgb(176, 101, 101);
   line-height: 1.5em;
   letter-spacing: 0.09em;
   border-radius: var(--borderRad);
