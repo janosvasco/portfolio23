@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { navTexts } from "../../constants";
 
 export default function Navbar() {
-  const [activeLinkIndex, setActiveLinkIndex] = useState(null);
+  const [activeLinkIndex, setActiveLinkIndex] = useState(0);
 
   function getSectionOffsets() {
     return navTexts.map((text) => {
