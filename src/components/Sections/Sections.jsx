@@ -83,8 +83,8 @@ export default function Sections() {
               munkatapasztalatot is szereztem a magyarországi Indonéz
               Nagykövetségen a Nagykövet asszisztenseként. Az elmúlt évek során
               elhatároztam, hogy célom a kreativitásom és az analitikus
-              gondolkodásom kamatoztatásával lenyűgöző weboldalak és
-              alkalmazások készítése.
+              gondolkodásom kamatoztatásával weboldalak és alkalmazások
+              készítése.
             </p>
           </div>
         </>
