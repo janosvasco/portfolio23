@@ -50,6 +50,7 @@ export default function Sections() {
           <div id="lower">
             <div id="programming-skills-box" className="cv-detail-box">
               <h2>Képességek</h2>
+              <br></br>
               <p>HTML</p>
               <p>CSS</p>
               <p>JS</p>
@@ -60,11 +61,13 @@ export default function Sections() {
             </div>
             <div id="other-skills-box" className="cv-detail-box">
               <h2>Egyéb ismeretek</h2>
+              <br></br>
               <p>MS Word, Excel, PowerPoint</p>
               <p>Adobe Ai, Ps, Pr, Lr</p>
             </div>
             <div id="languages-box" className="cv-detail-box">
               <h2>Nyelvek</h2>
+              <br></br>
               <p>magyar</p>
               <p>angol</p>
               <p>spanyol</p>
