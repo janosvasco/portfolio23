@@ -1,9 +1,10 @@
 import "./GameController.css";
 import React from "react";
 
-import { Action, actionForKey } from "../business/Input";
+import { Action, actionForKey, actionIsDrop } from "../business/Input";
 import { PlayerController } from "../business/PlayerController";
 
+import { useDropTime } from "../hooks/useDropTime";
 import { useInterval } from "../hooks/useInterval";
 
 const GameController = ({
@@ -13,20 +14,33 @@ const GameController = ({
   setGameOver,
   setPlayer,
 }) => {
+  const [dropTime, pauseDropTime, resumeDropTime] = useDropTime({
+    gameStats,
+  });
+
   useInterval(() => {
     handleInput({ action: Action.SlowDrop });
-  }, 1000);
+  }, dropTime);
 
   const onKeyUp = ({ code }) => {
     const action = actionForKey(code);
-
-    if (action === Action.Quit) {
-      setGameOver(true);
-    }
+    if (actionIsDrop(action)) resumeDropTime();
   };
   const onKeyDown = ({ code }) => {
     const action = actionForKey(code);
-    handleInput({ action });
+
+    if (action === Action.Pause) {
+      if (dropTime) {
+        pauseDropTime();
+      } else {
+        resumeDropTime();
+      }
+    } else if (action === Action.Quit) {
+      setGameOver(true);
+    } else {
+      if (actionIsDrop(action)) pauseDropTime();
+      handleInput({ action });
+    }
   };
 
   const handleInput = ({ action }) => {
