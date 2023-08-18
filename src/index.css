@@ -3,8 +3,7 @@
 }
 
 :root {
-  --primary-color: #ffffff;
-  --secondary-color: black;
+  --darkGrey: rgb(59, 52, 52);
   --boxcolor: #eafaf3;
   --boxcolorlight: #fafbfb;
   --fontcolor: grey;
@@ -14,6 +13,8 @@
   --fw-normal: 300;
   --fw-bold: 700;
   --fsize-s: 12px;
+
+  --borderRad: 10px;
 }
 
 body {
