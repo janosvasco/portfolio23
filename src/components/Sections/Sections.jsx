@@ -1,5 +1,8 @@
-import "./sections.css";
 import React from "react";
+
+import "./sections.css";
+import profilePic from "../../assets/imgs/circleb_reduced.jpg";
+
 import { navTexts } from "../../constants";
 import Header from "../Header/Header";
 import { NavLink } from "react-router-dom";
@@ -25,7 +28,7 @@ export default function Sections() {
         <div id="cv-container">
           <h2 id="cv-title">Önéletrajz</h2>
           <div id="upper">
-            <img src="/imgs/circleb_reduced.jpg" alt="Image" />
+            <img src={profilePic} alt="Image" />
             <div id="line"></div>
             <div id="studies-box" className="cv-detail-box">
               <h2>Tanulmányok</h2>
@@ -78,19 +81,16 @@ export default function Sections() {
       );
     } else if (text === "MOTIVÁCIÓ") {
       return (
-        <>
-          <div className="text-box">
-            <p>
-              Képző- és alkalmazott művészeti tanulmányaimat 2019- ben fejeztem
-              be. Azóta művészi karrieremre koncentráltam, közben értékes
-              munkatapasztalatot is szereztem a magyarországi Indonéz
-              Nagykövetségen a Nagykövet asszisztenseként. Az elmúlt évek során
-              elhatároztam, hogy célom a kreativitásom és az analitikus
-              gondolkodásom kamatoztatásával weboldalak és alkalmazások
-              készítése.
-            </p>
-          </div>
-        </>
+        <div className="text-box">
+          <p>
+            Képző- és alkalmazott művészeti tanulmányaimat 2019- ben fejeztem
+            be. Azóta művészi karrieremre koncentráltam, közben értékes
+            munkatapasztalatot is szereztem a magyarországi Indonéz
+            Nagykövetségen a Nagykövet asszisztenseként. Az elmúlt évek során
+            elhatároztam, hogy célom a kreativitásom és az analitikus
+            gondolkodásom kamatoztatásával weboldalak és alkalmazások készítése.
+          </p>
+        </div>
       );
     } else if (text === "PROJEKTEK") {
       return (
