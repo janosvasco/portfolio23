@@ -1,11 +1,12 @@
 header {
-  height: 8rem;
-  background-color: #14141d;
-  width: 100%;
-  opacity: 70%;
+  height: 125vh;
+  background-image: url("../../assets/imgs/45120026.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: -1;
 }
 
-header span {
+#header-box span {
   color: white;
   font-size: 38px;
   font-family: var(--mainFont);
@@ -13,8 +14,11 @@ header span {
 }
 
 #header-box {
-  height: 100%;
-  display: flex;
+  width: 100%;
+  opacity: 70%;
   align-items: center;
+  height: 8rem;
+  display: flex;
   padding: 2em;
+  background-color: rgb(20, 20, 29);
 }

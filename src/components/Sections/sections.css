@@ -15,12 +15,6 @@
   margin: 0;
 }
 
-#FEJLÉC {
-  height: 125vh;
-  background-image: url("../../assets/imgs/45120026.jpg");
-  background-size: cover;
-}
-
 #CV {
   background-color: rgb(0, 0, 0);
   height: 200vh;
