@@ -6,6 +6,7 @@ import Games from "./Games";
 import Motivation from "./Motivation";
 import Projects from "./Projects";
 import Cv from "./Cv";
+import Navbar from "../Right-side/Navbar";
 
 export default function Sections() {
   const sections = navTexts.map((text) => {
@@ -37,6 +38,7 @@ export default function Sections() {
       <header>
         {sections.find((section) => section.props.id === "FEJLÉC")}
       </header>
+      <Navbar />
       <main>{sections.filter((section) => section.props.id !== "FEJLÉC")}</main>
     </>
   );
