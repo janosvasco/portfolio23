@@ -1,4 +1,5 @@
 import React from "react";
+import "./Section.css";
 import Header from "./Header/Header";
 import Cv from "./Main/Cv";
 import Motivation from "./Main/Motivation";

@@ -1,5 +1,4 @@
 import React from "react";
-import "./Layout.css";
 import { navTexts } from "../../constants";
 import Navbar from "./Right-side/Navbar";
 import Section from "./Section";
