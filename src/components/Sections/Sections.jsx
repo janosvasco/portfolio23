@@ -5,7 +5,7 @@ import Header from "../Header/Header";
 import Games from "./Games";
 import Motivation from "./Motivation";
 import Projects from "./Projects";
-import CV from "./CV";
+import Cv from "./Cv";
 
 export default function Sections() {
   return (
