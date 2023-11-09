@@ -1,12 +1,12 @@
 import React from "react";
 import "./sections.css";
 import { navTexts } from "../../constants";
-import Header from "../Header/Header";
-import Games from "./Games";
-import Motivation from "./Motivation";
-import Projects from "./Projects";
-import Cv from "./Cv";
-import Navbar from "../Right-side/Navbar";
+import Header from "./Header/Header";
+import Games from "./Main/Games";
+import Motivation from "./Main/Motivation";
+import Projects from "./Main/Projects";
+import Cv from "./Main/Cv";
+import Navbar from "./Right-side/Navbar";
 
 export default function Sections() {
   const sections = navTexts.map((text) => {

@@ -1,7 +1,7 @@
 import "./navbar.css";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
-import { navTexts } from "../../constants";
+import { navTexts } from "../../../constants";
 
 export default function Navbar() {
   const [activeLinkIndex, setActiveLinkIndex] = useState(0);
