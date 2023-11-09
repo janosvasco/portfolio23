@@ -8,19 +8,13 @@ import Projects from "./Projects";
 import Cv from "./Cv";
 
 export default function Sections() {
-  return (
-    <main>
-      {navTexts
-        .map((text, id) => {
-          return (
-            <section className="section" id={text} key={id} data-label={text}>
-              {renderSectionContent(text)}
-            </section>
-          );
-        })
-        .filter((text) => text !== "HEADER")}
-    </main>
-  );
+  const sections = navTexts.map((text) => {
+    return (
+      <section className="section" id={text} key={text} data-label={text}>
+        {renderSectionContent(text)}
+      </section>
+    );
+  });
 
   function renderSectionContent(text) {
     if (text === "FEJLÉC") {
@@ -35,4 +29,15 @@ export default function Sections() {
       return <Games />;
     }
   }
+
+  console.log(sections);
+
+  return (
+    <>
+      <header>
+        {sections.find((section) => section.props.id === "FEJLÉC")}
+      </header>
+      <main>{sections.filter((section) => section.props.id !== "FEJLÉC")}</main>
+    </>
+  );
 }
