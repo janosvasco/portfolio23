@@ -10,26 +10,28 @@ import Cv from "./Cv";
 export default function Sections() {
   return (
     <main>
-      {navTexts.map((text, id) => {
-        return (
-          <section className="section" id={text} key={id} data-label={text}>
-            {renderSectionContent(text)}
-          </section>
-        );
-      })}
+      {navTexts
+        .map((text, id) => {
+          return (
+            <section className="section" id={text} key={id} data-label={text}>
+              {renderSectionContent(text)}
+            </section>
+          );
+        })
+        .filter((text) => text !== "HEADER")}
     </main>
   );
 
   function renderSectionContent(text) {
-    if (text === "HEADER") {
+    if (text === "FEJLÉC") {
       return <Header />;
     } else if (text === "CV") {
       return <Cv />;
-    } else if (text === "MOTIVATION") {
+    } else if (text === "MOTIVÁCIÓ") {
       return <Motivation />;
-    } else if (text === "PROJECTS") {
+    } else if (text === "PROJEKTEK") {
       return <Projects />;
-    } else if (text === "GAMES") {
+    } else if (text === "JÁTÉKOK") {
       return <Games />;
     }
   }
