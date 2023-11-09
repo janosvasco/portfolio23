@@ -1,4 +1,4 @@
-import "./navbar.css";
+import "./Navbar.css";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import { navTexts } from "../../../constants";
