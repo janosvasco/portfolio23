@@ -24,7 +24,7 @@ export default function Sections() {
     if (text === "HEADER") {
       return <Header />;
     } else if (text === "CV") {
-      return <CV />;
+      return <Cv />;
     } else if (text === "MOTIVATION") {
       return <Motivation />;
     } else if (text === "PROJECTS") {
