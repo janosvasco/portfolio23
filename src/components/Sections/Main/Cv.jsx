@@ -1,4 +1,5 @@
 import React from "react";
+import "./Cv.css";
 import profilePic from "../../../assets/imgs/circleb_reduced.jpg";
 
 export default function CV() {

@@ -1,0 +1,52 @@
+#JÁTÉKOK {
+  background-color: var(--darkGrey);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10em;
+}
+
+#games-title {
+  font-size: 44px;
+  font-family: var(--mainFont);
+  color: var(--lightGrey);
+  font-weight: 400;
+}
+
+#games-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+#games-container a {
+  text-decoration: none;
+}
+
+.game-type {
+  color: var(--lightGrey);
+  text-align: center;
+  font-size: 24px;
+}
+
+.games-box {
+  width: 20em;
+  height: 20em;
+  border: 1px solid var(--lightGrey);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--borderRad);
+}
+
+.games-box p {
+  margin-top: 0.5em;
+  color: var(--lightGrey);
+  font-style: italic;
+}
+
+#tetris-box {
+  cursor: pointer;
+}
