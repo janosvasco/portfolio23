@@ -15,7 +15,7 @@
   margin: 0;
 }
 
-#FEJLÉC {
+#HEADER {
   height: 125vh;
   background-image: url("../../assets/imgs/45120026.jpg");
   background-size: cover;
@@ -110,7 +110,7 @@
   }
 }
 
-#MOTIVÁCIÓ {
+#MOTIVATION {
   background-color: rgb(228, 215, 215);
   flex-direction: column;
   align-items: center;
@@ -156,7 +156,7 @@
   }
 }
 
-#PROJEKTEK {
+#PROJECTS {
   height: 200vh;
   background-color: rgb(195, 188, 188);
   flex-direction: column;
@@ -177,7 +177,7 @@
   border-radius: var(--borderRad);
 }
 
-#JÁTÉKOK {
+#GAMES {
   background-color: var(--darkGrey);
   flex-direction: column;
   justify-content: center;

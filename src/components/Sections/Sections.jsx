@@ -21,15 +21,15 @@ export default function Sections() {
   );
 
   function renderSectionContent(text) {
-    if (text === "FEJLÉC") {
+    if (text === "HEADER") {
       return <Header />;
     } else if (text === "CV") {
       return <CV />;
-    } else if (text === "MOTIVÁCIÓ") {
+    } else if (text === "MOTIVATION") {
       return <Motivation />;
-    } else if (text === "PROJEKTEK") {
+    } else if (text === "PROJECTS") {
       return <Projects />;
-    } else if (text === "JÁTÉKOK") {
+    } else if (text === "GAMES") {
       return <Games />;
     }
   }
