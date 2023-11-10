@@ -16,7 +16,7 @@ export default function Section({ children, ...props }) {
       return <Motivation />;
     } else if (text === "PROJEKTEK") {
       return <Projects />;
-    } else if (text === "JÁTÉKOK") {
+    } else if (text === "ALKALMAZÁSOK") {
       return <Games />;
     }
   }
