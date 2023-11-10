@@ -1,24 +1,16 @@
 import React from "react";
 import "./Games.css";
-import { NavLink } from "react-router-dom";
+import GameItem from "./GameItem";
 
 export default function Games() {
   return (
     <>
       <h2 id="games-title">Alkalmazások</h2>
       <div id="games-container">
-        <NavLink to="/tetris">
-          <div className="games-box" id="tetris-box">
-            <h3 className="game-type">Tetrisz</h3>
-            {<div id="tetris-bg"></div>}
-          </div>
-        </NavLink>
-        <NavLink to="#">
-          <div className="games-box" id="rps-box">
-            <h3 className="game-type">Kő-papír-olló</h3>
-            <p>hamarosan...</p>
-          </div>
-        </NavLink>
+        <GameItem link="/tetris" id="tetris-box" title="Tetrisz" />
+        <GameItem link="#" id="rpx-box" title="Kő-papír-olló">
+          <p>hamarosan...</p>
+        </GameItem>
       </div>
     </>
   );
