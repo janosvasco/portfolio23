@@ -34,7 +34,7 @@ export default function CV() {
           <h2>Képességek</h2>
           <br></br>
           <p>HTML</p>
-          <p>CSS</p>
+          <p>CSS, Tailwind CSS</p>
           <p>JS</p>
           <p>git</p>
           <p>React JS</p>
@@ -46,6 +46,7 @@ export default function CV() {
           <br></br>
           <p>MS Word, Excel, PowerPoint</p>
           <p>Adobe Ai, Ps, Pr, Lr</p>
+          <p>Agilis fejlesztés (Scrum)</p>
         </div>
         <div id="languages-box" className="cv-detail-box">
           <h2>Nyelvek</h2>
