@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 export default function Games() {
   return (
     <>
-      <h2 id="games-title">Játékok</h2>
+      <h2 id="games-title">Alkalmazások</h2>
       <div id="games-container">
         <NavLink to="/tetris">
           <div className="games-box" id="tetris-box">

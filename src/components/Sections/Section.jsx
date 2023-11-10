@@ -4,7 +4,7 @@ import Header from "./Header/Header";
 import Cv from "./Main/Cv";
 import Motivation from "./Main/Motivation";
 import Projects from "./Main/Projects";
-import Games from "./Main/Games";
+import Games from "./Main/Games/Games";
 
 export default function Section({ children, ...props }) {
   function renderSectionContent(text) {
