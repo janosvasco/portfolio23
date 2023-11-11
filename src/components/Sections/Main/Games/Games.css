@@ -24,6 +24,7 @@
 }
 #games-container a:hover {
   box-shadow: 3px 3px 2em rgb(36, 36, 36), -3px -3px 2em rgb(36, 36, 36);
+  border-radius: var(--borderRad);
 }
 
 #games-container h2 {
