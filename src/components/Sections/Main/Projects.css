@@ -33,17 +33,21 @@ menu li {
 menu li button {
   color: black;
   padding: 1em;
-  background-color: rgb(189, 98, 98);
   border-radius: var(--borderRad);
   cursor: pointer;
-  border: none;
+  border: 1px solid black;
+  background-color: rgb(213, 165, 165);
 }
 menu li button.active {
   background-color: rgb(235, 203, 203);
+  /*   margin-top: -0.1em;
+  box-shadow: 2px 5px 2px grey; */
 }
 
 menu li button:hover {
-  background-color: whitesmoke;
+  background-color: rgb(233, 224, 224);
+  margin-top: -0.1em;
+  box-shadow: 2px 5px 2px grey;
 }
 
 #tab-content {
