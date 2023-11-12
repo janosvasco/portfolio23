@@ -27,6 +27,10 @@
   gap: 10px;
 }
 
+#details-container {
+  width: 40em;
+}
+
 menu li {
   list-style-type: none;
 }
