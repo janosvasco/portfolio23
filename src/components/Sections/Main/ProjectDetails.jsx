@@ -20,7 +20,7 @@ export default function ProjectDetails() {
   }
 
   return (
-    <div>
+    <div id="details-container">
       <menu>
         <TabButton
           isSelected={selectedTopic === "csapatmunka"}
