@@ -1,12 +1,14 @@
 #PROJEKTEK {
   height: 200vh;
-  background-color: rgb(195, 188, 188);
+  background-color: rgb(213, 165, 165); /* rgb(195, 188, 188); */
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 10em;
+  /*   justify-content: center;
+ */
+  gap: 5em;
 }
 #projects-title {
+  margin-top: 64px;
   font-size: 44px;
   font-family: var(--mainFont);
   color: black;
@@ -14,7 +16,44 @@
 }
 .project-container {
   border: 1px solid black;
-  height: 25em;
-  width: 50em;
+  height: 15em;
+  width: 30em;
   border-radius: var(--borderRad);
+}
+
+#PROJEKTEK menu {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+menu li {
+  list-style-type: none;
+}
+menu li button {
+  color: black;
+  padding: 1em;
+  background-color: rgb(189, 98, 98);
+  border-radius: var(--borderRad);
+  cursor: pointer;
+  border: none;
+}
+menu li button.active {
+  background-color: rgb(235, 203, 203);
+}
+
+menu li button:hover {
+  background-color: whitesmoke;
+}
+
+#tab-content {
+  background-color: rgb(222, 178, 178);
+  width: 500px;
+}
+
+#tab-content h3 {
+  margin: 5px;
+}
+#tab-content p {
+  margin: 5px;
 }
