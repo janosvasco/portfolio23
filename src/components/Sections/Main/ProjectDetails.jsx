@@ -1,3 +1,4 @@
+import "./ProjectDetails.css";
 import React, { useState } from "react";
 import { EXAMPLES } from "./EXAMPLES";
 import TabButton from "./TabButton";
@@ -8,7 +9,7 @@ export default function ProjectDetails() {
   function handleSelect(selectedButton) {
     setSelectedTopic(selectedButton);
   }
-  let tabContent = <p>Kérlek válassz ki egy témát</p>;
+  let tabContent = <p>Kérlek válassz ki egy témát!</p>;
 
   if (selectedTopic) {
     tabContent = (
