@@ -19,3 +19,8 @@
   width: 40em;
   border-radius: var(--borderRad);
 }
+
+#frontend-box {
+  background-image: url(../../../assets/imgs/csapat6_screenshot.jpg);
+  background-size: cover;
+}

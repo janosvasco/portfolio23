@@ -6,13 +6,9 @@ export default function Projects() {
   return (
     <>
       <h2 id="projects-title">Projektek</h2>
-      <div className="project-container">
-        <p>frontend project</p>
-      </div>
+      <div id="frontend-box" className="project-container"></div>
       <ProjectDetails />
-      <div className="project-container">
-        <p>fullstack project</p>
-      </div>
+      <div className="project-container"></div>
       <ProjectDetails />
     </>
   );
