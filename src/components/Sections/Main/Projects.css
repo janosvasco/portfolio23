@@ -1,5 +1,5 @@
 #PROJEKTEK {
-  height: 200vh;
+  height: 230vh;
   background-color: rgb(213, 165, 165);
   flex-direction: column;
   align-items: center;
@@ -15,12 +15,16 @@
 }
 .project-container {
   border: 1px solid black;
-  height: 15em;
+  height: 22em;
   width: 40em;
   border-radius: var(--borderRad);
 }
 
 #frontend-box {
   background-image: url(../../../assets/imgs/csapat6_screenshot.jpg);
+  background-size: cover;
+}
+#fullstack-box {
+  background-image: url(../../../assets/imgs/fullstack_screenshot.jpg);
   background-size: cover;
 }

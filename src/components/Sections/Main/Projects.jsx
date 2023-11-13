@@ -8,7 +8,7 @@ export default function Projects() {
       <h2 id="projects-title">Projektek</h2>
       <div id="frontend-box" className="project-container"></div>
       <ProjectDetails />
-      <div className="project-container"></div>
+      <div id="fullstack-box" className="project-container"></div>
       <ProjectDetails />
     </>
   );
