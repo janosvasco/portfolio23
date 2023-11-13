@@ -1,12 +1,11 @@
 #PROJEKTEK {
   height: 200vh;
-  background-color: rgb(213, 165, 165); /* rgb(195, 188, 188); */
+  background-color: rgb(213, 165, 165);
   flex-direction: column;
   align-items: center;
-  /*   justify-content: center;
- */
   gap: 5em;
 }
+
 #projects-title {
   margin-top: 64px;
   font-size: 44px;
@@ -44,12 +43,10 @@ menu li button {
 }
 menu li button.active {
   background-color: rgb(235, 203, 203);
-  /*   margin-top: -0.1em;
-  box-shadow: 2px 5px 2px grey; */
 }
 
 menu li button:hover {
-  background-color: rgb(233, 224, 224);
+  background-color: rgb(246, 217, 217);
   margin-top: -0.1em;
   box-shadow: 2px 5px 2px grey;
 }
@@ -58,6 +55,13 @@ menu li button:hover {
   background-color: rgb(222, 178, 178);
   width: 40em;
   margin-top: 35px;
+  height: 10em;
+}
+
+#details-container p {
+  margin-top: 35px;
+  background-color: rgb(222, 178, 178);
+  height: 30px;
 }
 
 #tab-content h3 {
