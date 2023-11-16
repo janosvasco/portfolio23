@@ -8,9 +8,9 @@ export default function Games() {
       <h2>Alkalmazások</h2>
       <GameItem link="/tetris" id="tetris-box" title="Tetrisz" />
       <GameItem link="#" id="rpx-box" title="Kő-papír-olló" />
-      <GameItem link="/oxo" id="ttt-box" title="Tic-Tac-Toe" />
-      <GameItem link="/#" id="quiz-box" title="Quiz" />
-      <GameItem link="/#" id="inv-calc-box" title="Investment Calculator" />
+      <GameItem link="/oxo" id="ttt-box" title="OXO" />
+      <GameItem link="/#" id="quiz-box" title="Kvíz" />
+      <GameItem link="/#" id="inv-calc-box" title="Befektetés Kalkulátor" />
       <GameItem link="/#" id="placekeeper-box" title="Placekeeper" />
     </div>
   );

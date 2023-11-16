@@ -20,7 +20,7 @@ export default function Sections() {
 
   return (
     <>
-      <header>{headerSection}</header>
+      <header id="main-header">{headerSection}</header>
       <Navbar />
       <main>{mainSections}</main>
     </>
