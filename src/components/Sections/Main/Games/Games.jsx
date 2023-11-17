@@ -10,7 +10,11 @@ export default function Games() {
       <GameItem link="#" id="rpx-box" title="Kő-papír-olló" />
       <GameItem link="/oxo" id="ttt-box" title="OXO" />
       <GameItem link="/#" id="quiz-box" title="Kvíz" />
-      <GameItem link="/#" id="inv-calc-box" title="Befektetés Kalkulátor" />
+      <GameItem
+        link="/investment"
+        id="inv-calc-box"
+        title="Befektetés Kalkulátor"
+      />
       <GameItem link="/#" id="placekeeper-box" title="Placekeeper" />
     </div>
   );
