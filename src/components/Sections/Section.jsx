@@ -4,7 +4,7 @@ import Header from "./Header/Header";
 import Cv from "./Main/Cv";
 import Motivation from "./Main/Motivation";
 import Projects from "./Main/Projects";
-import Games from "./Main/Games/Games";
+import Apps from "./Main/Apps/Apps";
 
 export default function Section({ children, ...props }) {
   function renderSectionContent(text) {
@@ -17,7 +17,7 @@ export default function Section({ children, ...props }) {
     } else if (text === "PROJEKTEK") {
       return <Projects />;
     } else if (text === "ALKALMAZÁSOK") {
-      return <Games />;
+      return <Apps />;
     }
   }
 
