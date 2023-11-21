@@ -9,7 +9,7 @@ export default function Apps() {
       <AppItem link="/tetris" id="tetris-box" name="Tetrisz" />
       <AppItem link="#" id="rpx-box" name="Kő-papír-olló" />
       <AppItem link="/oxo" id="ttt-box" name="OXO" />
-      <AppItem link="/#" id="quiz-box" name="Kvíz" />
+      <AppItem link="/quiz" id="quiz-box" name="Kvíz" />
       <AppItem
         link="/investment"
         id="inv-calc-box"

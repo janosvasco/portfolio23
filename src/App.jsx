@@ -5,6 +5,7 @@ import App2 from "./pages/Tetris/App2";
 import Layout from "./components/Sections/Layout";
 import App3 from "./pages/OXO/App3";
 import InvestmentCalc from "./pages/Investment-Calculator/src/InvestmentCalc";
+import QuizLayout from "./pages/Quiz/QuizLayout";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -23,6 +24,10 @@ export default function App() {
     {
       path: "/investment",
       element: <InvestmentCalc />,
+    },
+    {
+      path: "/quiz",
+      element: <QuizLayout />,
     },
   ]);
   return <RouterProvider router={router} />;
