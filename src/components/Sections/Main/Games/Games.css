@@ -50,7 +50,8 @@
   border: 1px solid rgb(234, 228, 228);
 }
 
-.games-box h3:hover {
+.games-box:hover h3,
+.games-box:hover a:hover h3 {
   color: rgb(234, 228, 228);
 }
 
