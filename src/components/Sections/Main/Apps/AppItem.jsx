@@ -1,11 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-export default function GameItem({ link, id, title }) {
+export default function GameItem({ link, id, name }) {
   return (
     <NavLink to={link}>
-      <div className="games-box" id={id}>
-        <h3 className="game-type">{title}</h3>
+      <div className="app-item-box" id={id}>
+        <h3 className="app-name">{name}</h3>
       </div>
     </NavLink>
   );

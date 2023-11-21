@@ -3,7 +3,7 @@
   background-color: var(--darkGrey);
 }
 
-#games-container {
+#apps-container {
   margin-top: 4em;
   margin-left: auto;
   margin-right: auto;
@@ -19,15 +19,15 @@
   text-align: center;
 }
 
-#games-container a {
+#apps-container a {
   text-decoration: none;
 }
-#games-container a:hover {
+#apps-container a:hover {
   box-shadow: 3px 3px 2em rgb(36, 36, 36), -3px -3px 2em rgb(36, 36, 36);
   border-radius: var(--borderRad);
 }
 
-#games-container h2 {
+#apps-container h2 {
   grid-area: a;
   font-size: 44px;
   font-family: var(--mainFont);
@@ -35,7 +35,7 @@
   font-weight: 400;
 }
 
-.games-box {
+.app-item-box {
   width: 15em;
   height: 15em;
   border: 1px solid var(--lightGrey);
@@ -46,16 +46,16 @@
   border-radius: var(--borderRad);
 }
 
-.games-box:hover {
+.app-item-box:hover {
   border: 1px solid rgb(234, 228, 228);
 }
 
-.games-box:hover h3,
-.games-box:hover a:hover h3 {
+.app-item-box:hover h3,
+.app-item-box:hover a:hover h3 {
   color: rgb(234, 228, 228);
 }
 
-.game-type {
+.app-name {
   color: var(--lightGrey);
   text-align: center;
   font-size: 20px;
