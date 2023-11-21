@@ -47,7 +47,9 @@ function App() {
       <Formdata onSave={onSaveHandler} />
       {
         !userInput && (
-          <p style={{ textAlign: "center" }}>Data not available yet</p>
+          <p style={{ textAlign: "center", color: "#c2e9e0" }}>
+            Data not available yet
+          </p>
         ) /* Todo: Show below table conditionally (only once result data is available) */
       }
       {

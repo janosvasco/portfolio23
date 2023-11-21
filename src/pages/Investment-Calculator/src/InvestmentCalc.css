@@ -2,12 +2,7 @@
 
 #calc-container {
   min-height: 100vh;
-  font-family: "Quicksand", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* background-color: #242a28; */
   background: radial-gradient(#0e0e20, #000002);
-  color: #e1eeeb;
 }
 
 #calc-header {
@@ -15,6 +10,7 @@
 }
 
 #calc-header img {
+  margin-top: 2em;
   width: 5rem;
   height: 5rem;
   object-fit: contain;
@@ -22,8 +18,10 @@
 }
 
 #calc-header h1 {
+  font-family: "Quicksand", sans-serif;
   font-size: 1.5rem;
   margin: 2rem 0;
+  color: #e1eeeb;
 }
 
 .form {
