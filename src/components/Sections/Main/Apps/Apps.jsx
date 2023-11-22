@@ -15,7 +15,7 @@ export default function Apps() {
         id="inv-calc-box"
         name="Befektetés Kalkulátor"
       />
-      <AppItem link="/#" id="placekeeper-box" name="Placekeeper" />
+      <AppItem link="/#" id="placepicker-box" name="Álomutak" />
     </div>
   );
 }
