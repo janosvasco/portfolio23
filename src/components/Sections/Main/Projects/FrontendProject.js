@@ -1,8 +1,8 @@
-export const EXAMPLES = {
+export const FRONTEND = {
   csapatmunka: {
     title: "Csapatmunka",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "A projektmunkát 5 fős csapatokban, scrum módszer szerint, egy hetes sprintekben végeztük. A napokat standuppal indítottuk, melyben röviden átbeszéltük az előző nap kihívásait, az aznapi teendőt és más fontos kérdéseket. A sprintek végén retrospektívet tartottunk: végig mentünk a hét sikerein, megbeszéltünk a kihívást jelentő feladatokat és javaslatot tettünk arra, hogy a következő sprintben mit csinálhatnánk jobban.",
   },
   kihívások: {
     title: "Kihívások",

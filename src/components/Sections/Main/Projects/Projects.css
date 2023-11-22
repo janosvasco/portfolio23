@@ -21,10 +21,10 @@
 }
 
 #frontend-box {
-  background-image: url(../../../assets/imgs/csapat6_screenshot.jpg);
+  background-image: url(../../../../assets/imgs/csapat6_screenshot.jpg);
   background-size: cover;
 }
 #fullstack-box {
-  background-image: url(../../../assets/imgs/fullstack_screenshot.jpg);
+  background-image: url(../../../../assets/imgs/fullstack_screenshot.jpg);
   background-size: cover;
 }

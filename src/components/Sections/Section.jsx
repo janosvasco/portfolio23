@@ -3,7 +3,7 @@ import "./Section.css";
 import Header from "./Header/Header";
 import Cv from "./Main/Cv";
 import Motivation from "./Main/Motivation";
-import Projects from "./Main/Projects";
+import Projects from "./Main/Projects/Projects";
 import Apps from "./Main/Apps/Apps";
 
 export default function Section({ children, ...props }) {

@@ -1,9 +1,8 @@
 import "./ProjectDetails.css";
 import React, { useState } from "react";
-import { EXAMPLES } from "./EXAMPLES";
 import TabButton from "./TabButton";
 
-export default function ProjectDetails() {
+export default function ProjectDetails({ details }) {
   const [selectedTopic, setSelectedTopic] = useState();
 
   function handleSelect(selectedButton) {
@@ -14,8 +13,8 @@ export default function ProjectDetails() {
   if (selectedTopic) {
     tabContent = (
       <div id="tab-content">
-        <h3>{EXAMPLES[selectedTopic].title}</h3>
-        <p>{EXAMPLES[selectedTopic].description}</p>
+        <h3>{details[selectedTopic].title}</h3>
+        <p>{details[selectedTopic].description}</p>
       </div>
     );
   }
