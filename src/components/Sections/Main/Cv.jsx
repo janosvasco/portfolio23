@@ -37,7 +37,7 @@ export default function CV() {
           <p>CSS, Tailwind CSS</p>
           <p>JS</p>
           <p>git</p>
-          <p>React JS</p>
+          <p>React JS, Redux</p>
           <p>Node.js</p>
           <p>SQL</p>
         </div>
