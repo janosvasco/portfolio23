@@ -36,10 +36,10 @@ export default function CV() {
           <p>HTML</p>
           <p>CSS, Tailwind CSS</p>
           <p>JS</p>
-          <p>git</p>
           <p>React JS, Redux</p>
           <p>Node.js</p>
           <p>SQL</p>
+          <p>git</p>
         </div>
         <div id="other-skills-box" className="cv-detail-box">
           <h2>Egyéb ismeretek</h2>
