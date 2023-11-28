@@ -15,8 +15,8 @@
 }
 .project-container {
   border: 1px solid black;
-  height: 22em;
   width: 40em;
+  height: 22em;
   border-radius: var(--borderRad);
 }
 
@@ -33,10 +33,20 @@
   #PROJEKTEK {
     height: auto;
   }
+  .project-container {
+    width: 20em;
+    height: 11em;
+    background-size: contain;
+  }
 }
 
 @media (max-width: 480px) {
   #PROJEKTEK {
     height: auto;
+  }
+  .project-container {
+    width: 20em;
+    height: 11em;
+    background-size: contain;
   }
 }
