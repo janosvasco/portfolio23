@@ -1,5 +1,5 @@
 #PROJEKTEK {
-  height: 230vh;
+  height: auto;
   background-color: rgb(213, 165, 165);
   flex-direction: column;
   align-items: center;
@@ -27,4 +27,16 @@
 #fullstack-box {
   background-image: url(../../../../assets/imgs/fullstack_screenshot.jpg);
   background-size: cover;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  #PROJEKTEK {
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  #PROJEKTEK {
+    height: auto;
+  }
 }
