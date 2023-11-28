@@ -1,12 +1,10 @@
 #ALKALMAZÁSOK {
-  height: 110vh;
+  height: auto;
   background-color: var(--darkGrey);
 }
 
 #apps-container {
-  margin-top: 4em;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 4em auto;
   display: grid;
   grid-template-areas:
     "a a a"
