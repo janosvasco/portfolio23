@@ -7,6 +7,7 @@
 }
 
 .text-box {
+  margin: 4em 4em;
   width: 75%;
   display: flex;
   text-align: center;
@@ -28,18 +29,30 @@
     font-size: 24px;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
   .text-box p {
     font-size: 22px;
   }
 }
-@media (min-width: 410px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 768px) {
+  #MOTIVÁCIÓ {
+    height: auto;
+  }
+  .text-box {
+    height: 85%;
+  }
   .text-box p {
     font-size: 18px;
   }
 }
 
 @media (max-width: 480px) {
+  #MOTIVÁCIÓ {
+    height: auto;
+  }
+  .text-box {
+    height: 80%;
+  }
   .text-box p {
     font-size: 14px;
   }
