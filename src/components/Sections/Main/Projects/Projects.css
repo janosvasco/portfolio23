@@ -1,6 +1,6 @@
 #PROJEKTEK {
   height: auto;
-  background-color: rgb(213, 165, 165);
+  background: linear-gradient(rgb(213, 165, 165), rgb(161, 22, 22));
   flex-direction: column;
   align-items: center;
   gap: 5em;

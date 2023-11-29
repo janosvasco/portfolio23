@@ -31,7 +31,7 @@ menu li button:hover {
 }
 
 #tab-content {
-  background-color: rgb(222, 178, 178);
+  background-color: rgb(246, 146, 146);
   width: 40em;
   margin-top: 35px;
   height: 11em;
@@ -47,4 +47,40 @@ menu li button:hover {
 }
 #tab-content p {
   margin: 5px;
+}
+
+@media (max-width: 480px) {
+  #details-container {
+    width: 20em;
+  }
+  menu li button {
+    font-size: 10px;
+  }
+  #tab-content {
+    margin: 0 auto;
+    width: 20em;
+    height: 25em;
+    margin-top: 35px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  #details-container {
+    width: 20em;
+  }
+  menu li button {
+    font-size: 10px;
+  }
+  #tab-content {
+    margin: 0 auto;
+    width: 20em;
+    height: 25em;
+    margin-top: 35px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+}
+
+@media (min-width: 1280px) {
 }
