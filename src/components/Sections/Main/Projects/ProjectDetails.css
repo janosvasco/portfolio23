@@ -31,10 +31,17 @@ menu li button:hover {
 }
 
 #tab-content {
-  background-color: rgb(246, 146, 146);
   width: 40em;
   margin-top: 35px;
   height: 11em;
+}
+
+#fe-section #tab-content {
+  background-color: rgb(246, 146, 146);
+}
+
+#fs-section #tab-content {
+  background-color: rgb(195, 98, 98);
 }
 
 #details-container p {
