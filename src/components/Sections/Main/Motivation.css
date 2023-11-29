@@ -16,11 +16,9 @@
 
 .text-box p {
   height: 100%;
-  /*   font-size: 28px;
- */
   font-family: var(--mainFont);
   background-color: rgb(250, 241, 241);
-  padding: 1em 3em;
+  padding: 1.5em 3em;
   border: 0.1em dotted rgb(176, 101, 101);
   line-height: 1.5em;
   letter-spacing: 0.09em;
@@ -35,7 +33,7 @@
     height: auto;
   }
   .text-box p {
-    font-size: 26px;
+    font-size: 28px;
   }
 }
 @media (min-width: 769px) and (max-width: 1279px) {
