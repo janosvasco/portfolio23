@@ -90,6 +90,9 @@
   #lower {
     flex-direction: column;
   }
+  .cv-detail-box {
+    margin-bottom: 2em;
+  }
 }
 
 @media (max-width: 768px) and (min-width: 481px) {
