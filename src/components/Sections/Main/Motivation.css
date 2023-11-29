@@ -1,5 +1,5 @@
 #MOTIVÁCIÓ {
-  height: 100vh;
+  height: auto;
   background-color: rgb(228, 215, 215);
   flex-direction: column;
   align-items: center;
@@ -24,12 +24,24 @@
   border-radius: var(--borderRad);
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) {
+  #MOTIVÁCIÓ {
+    height: 100vh;
+  }
+  .text-box {
+    height: auto;
+  }
   .text-box p {
     font-size: 24px;
   }
 }
 @media (min-width: 769px) and (max-width: 991px) {
+  #MOTIVÁCIÓ {
+    height: 100vh;
+  }
+  .text-box {
+    height: auto;
+  }
   .text-box p {
     font-size: 22px;
   }
