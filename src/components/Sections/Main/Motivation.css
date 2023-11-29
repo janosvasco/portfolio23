@@ -9,12 +9,15 @@
 .text-box {
   margin: 4em 4em;
   width: 75%;
+  height: 70%;
   display: flex;
   text-align: center;
 }
 
 .text-box p {
-  font-size: 28px;
+  height: 100%;
+  /*   font-size: 28px;
+ */
   font-family: var(--mainFont);
   background-color: rgb(250, 241, 241);
   padding: 1em 3em;
@@ -32,7 +35,7 @@
     height: auto;
   }
   .text-box p {
-    font-size: 24px;
+    font-size: 28px;
   }
 }
 @media (min-width: 769px) and (max-width: 991px) {
@@ -52,6 +55,7 @@
   }
   .text-box {
     height: auto;
+    width: auto;
   }
   .text-box p {
     font-size: 18px;
