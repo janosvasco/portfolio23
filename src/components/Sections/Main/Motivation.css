@@ -65,9 +65,15 @@
     height: auto;
   }
   .text-box {
-    height: 70%;
+    height: auto;
   }
   .text-box p {
     font-size: 14px;
+  }
+}
+
+@media (max-height: 480px) {
+  #MOTIVÁCIÓ {
+    height: 120vh;
   }
 }
