@@ -69,7 +69,7 @@
   }
 }
 
-@media (max-width: 768px) and (min-width: 481px) {
+@media (max-width: 876px) and (min-width: 481px) {
   #ALKALMAZÁSOK {
     height: auto;
   }
