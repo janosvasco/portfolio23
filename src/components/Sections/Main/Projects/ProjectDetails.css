@@ -27,7 +27,7 @@ menu li button.active {
 menu li button:hover {
   background-color: rgb(246, 217, 217);
   margin-top: -0.1em;
-  box-shadow: 2px 5px 2px grey;
+  box-shadow: 2px 5px 2px rgb(104, 26, 26);
 }
 
 #tab-content {
