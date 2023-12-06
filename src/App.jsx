@@ -31,6 +31,10 @@ export default function App() {
       path: "/quiz",
       element: <QuizLayout />,
     },
+    {
+      path: "/error",
+      element: <ErrorPage />,
+    },
   ]);
   return <RouterProvider router={router} />;
 }
