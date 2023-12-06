@@ -6,12 +6,14 @@ import Layout from "./components/Sections/Layout";
 import App3 from "./pages/OXO/App3";
 import InvestmentCalc from "./pages/Investment-Calculator/src/InvestmentCalc";
 import QuizLayout from "./pages/Quiz/QuizLayout";
+import ErrorPage from "./pages/Error";
 
 export default function App() {
   const router = createBrowserRouter([
     {
       path: "/",
       element: <Layout />,
+      errorElement: <ErrorPage />,
     },
     {
       path: "/tetris",
